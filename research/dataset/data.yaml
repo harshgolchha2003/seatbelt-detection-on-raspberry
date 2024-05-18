@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['mobile', 'seatbelt', 'windshield']
+
+roboflow:
+  workspace: aiactive20092009-gmail-com
+  project: seat_belt-and-mobile
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aiactive20092009-gmail-com/seat_belt-and-mobile/dataset/2

@@ -1,0 +1,13 @@
+train: ../dataset4/train/images
+val: ../dataset4/valid/images
+test: ../dataset4/test/images
+
+nc: 3
+names: ['none', 'person', 'seatbelt']
+
+roboflow:
+  workspace: seatbeltdet
+  project: seatbelt-vehicleoccupancy
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/seatbeltdet/seatbelt-vehicleoccupancy/dataset/2
