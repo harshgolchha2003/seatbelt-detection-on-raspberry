@@ -1,5 +1,0 @@
-train: ../dataset2/train/images
-val: ../dataset2/valid/images
-
-nc: 2
-names: ['no-seatbelt', 'seatbelt']
